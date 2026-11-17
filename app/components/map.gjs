@@ -20,11 +20,11 @@ export default class Map extends Component {
     <div class="map">
       <img
         alt="Map image at coordinates {{@lat}},{{@lng}}"
-        ...attributes                
+        ...attributes
         src={{this.src}}
         width={{@width}}
         height={{@height}}
-      >
+      />
       {{yield}}
     </div>
   </template>
